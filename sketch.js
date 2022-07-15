@@ -34,10 +34,10 @@ else if(hr >= 12 && hr <=16){
 if(hr >= 17 && hr <=23){
     console.log("evening");
     background(i1);
-    textSize(65);
+    textSize(60);
     fill("yellow");
-    text("Good Evening",windowWidth/2-130,windowHeight/2-110);
-    text("Welcome to",windowWidth/2-230,windowHeight/2-40);
+    text("Good Evening",windowWidth/2-210,windowHeight/2-110);
+    text("Welcome to",windowWidth/2-340,windowHeight/2-40);
     fill("red");
     stroke("black");
     strokeWeight(2);
