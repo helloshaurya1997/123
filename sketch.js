@@ -34,14 +34,14 @@ else if(hr >= 12 && hr <=16){
 if(hr >= 17 && hr <=23){
     console.log("evening");
     background(i1);
-    textSize(40);
+    textSize(65);
     fill("yellow");
-    text("Good Evening",windowWidth/2-100,windowHeight/2-100);
-    text("Welcome to",windowWidth/2-200,windowHeight/2-30);
+    text("Good Evening",windowWidth/2-130,windowHeight/2-110);
+    text("Welcome to",windowWidth/2-230,windowHeight/2-40);
     fill("red");
     stroke("black");
     strokeWeight(2);
-    text("ROBO APP",windowWidth/2+20,windowHeight/2-30);
+    text("ROBO APP",windowWidth/2-10,windowHeight/2-40);
     
 }
 }
